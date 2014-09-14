@@ -26,6 +26,7 @@ Inject the flow in [tweet_dashboard.flow](tweet_dashboard.flow) into the Node-RE
 Connect Rambot to a WiFi (currently configured: SSID=RambotAP, Pass:hackfest)
 
 Go to: **http://10.110.66.177/:1880/tweets**
+
 Tweet using the hashtag #rambot one or more of the following commands:
 * shwing	Left 45%
 * shwang	Right 45%
