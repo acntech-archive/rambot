@@ -50,10 +50,10 @@ A test-client for the Python API can be found at: /var/www/rambot.html
 
 The Python API is defined at: /var/www/cgi-bin/rambot.py
 API URL: http://xxx.xxx.xxx.xxx/cgi-bin/rambot.py?action=[action]&movement=[movement] 
-o	move [cm]
-o	turn [degrees]
-o	tilt [degrees]
-o	center
-o	shutdown
-o	startstream
-o	stopstream
+* move [cm]
+* turn [degrees]
+* tilt [degrees]
+* center
+* shutdown
+* startstream
+* stopstream
