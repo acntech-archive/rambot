@@ -15,6 +15,8 @@ http://nodered.org/docs/hardware/raspberrypi.html
 
 Node-RED installed on a RaspberryPi connected to a screen (for the tweet-dashvoard)
 
+A Twitter account for Rambot: currently configured rambotpro@gmail.com
+
 ## Deploy
 ### Robot
 Inject the flow in [robot.flow](robot.flow) into the Node-RED instance running on the robot
