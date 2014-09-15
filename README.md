@@ -23,7 +23,10 @@ Inject the flow in [robot.flow](robot.flow) into the Node-RED instance running o
 Inject the flow in [tweet_dashboard.flow](tweet_dashboard.flow) into the Node-RED instance running on the RaspberryPi connected to the screen
 
 ## Usage
-Connect Rambot to a WiFi (currently configured: SSID=RambotAP, Pass:hackfest)
+
+Note: the LIPO-battery must not drop below 12v.
+
+Connect Rambot to a WiFi (currently configured: SSID=RambotAP, Pass:hackfest): sudo nano /etc/network/interfaces
 
 Launch a browser on the RaspberryPi connected to the screen: 
 ```
@@ -40,3 +43,17 @@ Tweet using the hashtag #rambot one or more of the following commands:
 * shna	Camera right
 * shnop	Camera up
 * shnap	Camera down
+* 
+## Dependencies
+The Node-RED flow on the robot depends on the Rambot Python API for controlling the servos and webcam.
+A test-client for the Python API can be found at: /var/www/rambot.html
+
+The Python API is defined at: /var/www/cgi-bin/rambot.py
+API URL: http://xxx.xxx.xxx.xxx/cgi-bin/rambot.py?action=[action]&movement=[movement] 
+o	move [cm]
+o	turn [degrees]
+o	tilt [degrees]
+o	center
+o	shutdown
+o	startstream
+o	stopstream
