@@ -43,6 +43,7 @@ Tweet using the hashtag #rambot one or more of the following commands:
 * shna	Camera right
 * shnop	Camera up
 * shnap	Camera down
+* selfie Rambot takes a selfie
 
 ## Dependencies
 The Node-RED flow on the robot depends on the Rambot Python API for controlling the servos and webcam.
